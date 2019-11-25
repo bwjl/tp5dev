@@ -13,17 +13,17 @@ return [
     // 数据库类型
     'type'            => 'mysql',
     // 服务器地址
-    'hostname'        => Env::get('database_yc.host'),
+    'hostname'        => Env::get('database_dw.host'),
     // 数据库名
-    'database'        => Env::get('database_yc.dbname'),
+    'database'        => Env::get('database_dw.dbname'),
     // 用户名
-    'username'        => Env::get('database_yc.username'),
+    'username'        => Env::get('database_dw.username'),
     // 密码
-    'password'        => Env::get('database_yc.password'),
+    'password'        => Env::get('database_dw.password'),
     // 端口
-    'hostport'        => Env::get('database_yc.hostport'),
+    'hostport'        => Env::get('database_dw.hostport'),
     // 数据库表前缀
-    'prefix'          => Env::get('database_yc.prefix'),
+    'prefix'          => Env::get('database_dw.prefix'),
     // 连接dsn
     'dsn'             => '',
     // 数据库连接参数

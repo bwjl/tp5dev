@@ -9,7 +9,7 @@ $mod_code = 21;
 
 Route::group('manage', function () use ($mod_code) {
     //登录
-    Route::post('/login', 'manage/Login/doLogin')->append(['code' => $mod_code . '1']);
+    Route::post('/login', 'manage/Login/login')->append(['code' => $mod_code . '1']);
 
 })->middleware(['Validate'])->allowCrossDomain();
 

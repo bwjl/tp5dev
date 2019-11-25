@@ -17,8 +17,8 @@ defined('LOGIN_FAIL_CODE') OR define('LOGIN_FAIL_CODE', 400001); //token已过�
 defined('NO_LOGIN_CODE') OR define('NO_LOGIN_CODE', 400002); //未登录
 defined('AUTH_FAIL_CODE') OR define('AUTH_FAIL_CODE', 400011); //无权限操作
 
-defined('CODE_100000') or define('CODE_100000', [100000, 'success']);
-defined('CODE_400000') or define('CODE_400000', [400000, 'error']);
+defined('CODE_100000') or define('SUCCESS', [100000, 'success']);
+defined('CODE_400000') or define('FAIL', [400000, 'error']);
 defined('CODE_500000') or define('CODE_500000', [500000, '服务器忙，请刷新后重新尝试']);
 defined('CODE_500001') or define('CODE_500001', [500001, '系统异常']);
 defined('CODE_500002') or define('CODE_500002', [500002, '系统异常[http]']);
@@ -39,9 +39,9 @@ defined('PAGER_MAX_LIMIT') or define('PAGER_MAX_LIMIT', 50); //每页最大显�
 defined('DB_ISDELETE_NO') or define('DB_ISDELETE_NO', 0); //未删除
 defined('DB_ISDELETE_IS') or define('DB_ISDELETE_IS', 1); //已删除
 
-//启用禁用 Enable disabled
-defined('STATUS_ENABLE') or define('STATUS_ENABLE', 1); //启用
-defined('STATUS_DISABLED') or define('STATUS_DISABLED', 2); //禁用
+//启用禁用 enable disabled
+defined('ENABLE') or define('ENABLE', 1); //启用
+defined('DISABLED') or define('DISABLED', 2); //禁用
 
 //烟草用户管辖级别
 defined('DISTRICT_LEVEL_1') or define('DISTRICT_LEVEL_1', 1); //省
